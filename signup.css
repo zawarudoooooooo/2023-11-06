@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  background-color: darksalmon;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box {
+  width: 100vw;
+  text-align: center;
+  margin-top: 100px;
+}
+.box .title {
+  margin-bottom: 45px;
+}
+.box .title span {
+  font-size: 50pt;
+  color: aliceblue;
+}
+.box .content {
+  margin-bottom: 50px;
+  position: relative;
+}
+.box .content p {
+  margin: 0;
+  font-size: 18pt;
+  color: aliceblue;
+}
+.box .content i {
+  z-index: 3;
+  position: absolute;
+  top: 37px;
+  left: 605px;
+}
+.box .content #nameIcon {
+  z-index: 3;
+  position: absolute;
+  top: 116px;
+  left: 605px;
+}
+.box .content #passwordIcon {
+  z-index: 3;
+  position: absolute;
+  top: 195px;
+  left: 605px;
+}
+.box .content #passwordreIcon {
+  z-index: 3;
+  position: absolute;
+  top: 275px;
+  left: 605px;
+}
+.box .content input {
+  width: 300px;
+  height: 25px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-left: 35px;
+}
+.box .content form input:valid {
+  border: 2px green;
+}
+.box .content form input:invalid {
+  border: 2px red;
+}
+.box .bottonarea button {
+  width: 130px;
+  background-color: aliceblue;
+  color: darksalmon;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px black;
+  font-size: 14pt;
+  border-style: none;
+}
+.box .bottonarea button:hover {
+  background-color: lavenderblush;
+  color: burlywood;
+}
+.box .bottonarea button:active {
+  background-color: burlywood;
+  color: lavenderblush;
+}/*# sourceMappingURL=signup.css.map */
